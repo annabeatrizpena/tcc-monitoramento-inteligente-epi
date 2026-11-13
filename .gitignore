@@ -1,0 +1,43 @@
+
+# Ambiente Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Banco de dados e registros locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Evidências e capturas dos testes
+evidencias/
+evidencias_*/
+*.jpg
+*.jpeg
+*.png
+
+# Relatórios gerados
+relatorios/*.pdf
+
+# Arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Relatórios de ocorrências
+relatorios/*.csv
+relatorios/*.pdf
+
+banco/
